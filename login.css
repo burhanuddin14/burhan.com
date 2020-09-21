@@ -53,8 +53,7 @@ body{
 	margin-left:10px;color:white;
 }
 .login{
-	margin-left:170px;
-	margin-top:40px;
+	margin:auto;
 }
 .login input{
 	height:30px;width:70px;
