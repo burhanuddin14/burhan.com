@@ -1,0 +1,68 @@
+*{margin:0;padding:0;}
+body{
+	background:#444;overflow:hidden;
+}
+.header{
+	background:orange;color:#111;
+	text-align:center;padding:10px;
+	box-shadow:0 0 10px #eee,
+				0 0 20px #eee,
+				0 0 30px #eee;
+}
+.box{
+	background:url(body1.jpg);
+	background-size:cover;
+	border:1px solid black;
+	width:300px;height:450px;
+	margin-left:170px;border-radius:40px;
+	margin-top:100px;
+	box-shadow:5px -5px 10px #ddd,
+				5px -5px 20px #ddd,
+				5px -5px 30px #ddd,
+				0 0 40px #ddd,
+				0 0 50px #ddd;
+}
+.box:hover{
+	transform:scale(1.06);
+}
+.forum input{
+	background:#ddd;
+	margin-top:20px;margin-left:55px;
+	height:30px;width:200px;
+	border:1px solid black;text-align:center;
+	border-radius:40px;
+	box-shadow:0 0 10px pink,
+				0 0 20px pink,
+				0 0 30px pink,
+				0 0 40px pink;
+	opacity:0.6;
+}
+.forum input:hover{
+	background:#fff;
+	transform:scale(1.08);
+	opacity:1;
+}
+.forum input:first-child{
+	margin-top:140px;
+}
+.checkbox{
+	width:200px; height:20px;
+	margin-left:55px;margin-top:10px;
+}
+.checkbox span {
+	margin-left:10px;color:white;
+}
+.login{
+	margin-left:170px;
+	margin-top:40px;
+}
+.login input{
+	height:30px;width:70px;
+	border-radius:30px;border:1px solid #eee;
+	box-shadow:0 0 10px #ddd,
+				0 0 20px #ddd,
+				0 0 30px #ddd;
+}
+.login input:hover{
+	transform:scale(1.3);
+}
