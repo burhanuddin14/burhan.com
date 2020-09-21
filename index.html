@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="accountcreation.css" type="text/css"
+			rel="stylesheet"/>
+<title>Account Creation</title>
+<script type="text/javascript" src="accountcreation.js"></script>
+</head>
+<body>
+<div>
+<div class="fullpage">
+	<h1 class="header">Create Account</h1>
+<div class="forum">
+	<input type="text" placeholder="       Write Your First Name"/>
+	<input type="text" placeholder="       Write Your Last Name"/><br/><br/>
+		<h2 class="alltitle">Date Of Birth :</h2><br/>
+	
+	
+				<!---select date bagan--->
+	<div class="selectbdate">
+	<div class="singlebdate">
+	<select class="section">
+			<option>Date</option>
+			<option>01</option><option>02</option>
+			<option>03</option><option>04</option>
+			<option>05</option><option>06</option>
+			<option>07</option><option>08</option>
+			<option>09</option><option>10</option>
+			<option>11</option><option>12</option>
+			<option>13</option><option>14</option>
+			<option>15</option><option>16</option>
+			<option>17</option><option>18</option>
+			<option>19</option><option>20</option>
+			<option>21</option><option>22</option>
+			<option>23</option><option>24</option>
+			<option>25</option><option>26</option>
+			<option>27</option><option>28</option>
+			<option>29</option><option>30</option>
+			<option>31</option>
+		</select>
+		</div>
+	<div class="singlebdate">
+	<select class="section">
+		<option>Month</option>
+		<option>January</option><option>February</option><option>March</option>
+		<option>April</option><option>May</option><option>June</option>
+		<option>July</option><option>August</option><option>September</option>
+		<option>Obtober</option><option>November</option><option>December</option>
+	</select>
+	</div>
+	<div class="singlebdate">
+	<select class="section">
+			<option>Year</option>
+			<option>1995</option><option>1996</option><option>1997</option>
+			<option>1998</option><option>1999</option><option>2000</option>
+			<option>2001</option><option>2002</option><option>2003</option>
+			<option>2004</option><option>2005</option><option>2006</option>
+	</select>
+	</div>
+	</div>
+		<!---select date End--->
+			
+			
+			
+			<br/><br/>
+			
+			
+	<!---Gender Began--->
+	<div class="gender">
+	<h2>Gender :</h2><br/>
+		<input type="radio" name="gender"/>&nbsp;&nbsp;<b>Male</b>
+		<input type="radio" name="gender"/><b>&nbsp;&nbsp;	Female</b>
+		</div>
+			<br/>
+		<!---Gender End---> 
+		
+		
+		
+	<input type="phone number" placeholder="      Write Your Phone Number"/><br/><br/>
+		
+	<input type="email" placeholder="       Write Your E-mail"/><br/><br/>
+	
+	<input id="pass" type="password" placeholder="       Creat a new password"/>
+	<br/>
+	<input onclick="show()" id="check" class="see" type="checkbox"/>
+	<span class="see">See Password</span>
+	
+	<br/><br/>
+	<input type="password" placeholder="       Confirm Your Password"/><br/><br/>
+	
+			<textarea class="textarea" Cols="40px" rows="8px" placeholder="
+   Write something about your-self"></textarea>
+	<br/><br/>
+	</div>
+	
+	
+	<!---create button---->
+	<button class="createbtn">
+	<h3><a href="#">Create Account</a></h3>
+	</button>
+	<br/><br/>
+	</div>
+	
+	<div class="acntandlog"><br><br>
+	<b class="alreadyacnt">Already Have an Account?</b><br/><br><br>
+	<p class="login"><a href="#"><span onclick="login();">Clik Here</span></a></p>
+	</div>
+</div>
+</body>
+</html>
